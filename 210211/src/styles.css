@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+}
+.small {
+    background-color: #3f8ed1;
+}
+
+.medium {
+    background-color: #8a55a8;
+}
+
+.large {
+    background-color: #eabc41;
+}
