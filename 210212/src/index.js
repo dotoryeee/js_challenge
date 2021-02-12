@@ -10,11 +10,11 @@ function getTime() {
     const xmasDay = xmas.getDay();
     const xmasMonth = xmas.getMonth();
 
-    const now = new Date()
-    const second = 60 - now.getSeconds() - xmasSecond
-    const minute = 60 - now.getMinutes() - xmasMinute
-    const hour = 60 - now.getHours() - xmasSecond
-    const day = (xmasMinute - now.getDay()) + (xmasMonth - now.getMonth()) * 30
+    const now = new Date();
+    const second = 60 - now.getSeconds() - xmasSecond;
+    const minute = 60 - now.getMinutes() - xmasMinute;
+    const hour = 60 - now.getHours() - xmasHour;
+    const day = xmasDay - now.getDay() + (xmasMonth - now.getMonth()) * 30;
     counter.innerText = `${day}d : ${
         hour < 10 ? `0${hour}` : hour
     }h : ${
