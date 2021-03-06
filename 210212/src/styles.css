@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-    background-color: ghostwhite;
-    font-family: 'Roboto', sans-serif;
-}
-.counter{
-    display: flex;
-    font-size: 20px;
-}
